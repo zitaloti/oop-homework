@@ -1,0 +1,12 @@
+Results for file input01.txt
+Shape with maximum area: Circle(radius=7.0), Area: 153.94
+Shape with maximum perimeter: Circle(radius=7.0), Perimeter: 43.98
+
+Results for file input02.txt
+Shape with maximum area: Circle(radius=10.0), Area: 314.16
+Shape with maximum perimeter: Circle(radius=10.0), Perimeter: 62.83
+
+Results for file input03.txt
+Shape with maximum area: Circle(radius=12.0), Area: 452.39
+Shape with maximum perimeter: Circle(radius=12.0), Perimeter: 75.4
+
