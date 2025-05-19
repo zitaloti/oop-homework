@@ -1,0 +1,19 @@
+==== TEST OF RATIONAL AND RATIONAL LIST EXCEPTIONS ====
+
+$ python test_exceptions.py
+Testing RationalError:
+Caught RationalError: Denominator cannot be zero
+Caught RationalError when setting d to 0: Denominator cannot be zero
+Caught RationalError during division: Division by zero
+
+Testing RationalValueError:
+Caught RationalValueError during addition: Addition is only supported between Rational numbers
+Caught RationalValueError during subtraction: Subtraction is only supported between Rational numbers
+Caught RationalValueError during multiplication: Multiplication is only supported between Rational numbers
+Caught RationalValueError during division: Division is only supported between Rational numbers
+
+Testing RationalValueError in RationalList:
+Caught RationalValueError during append: Only Rational or int values are allowed
+Caught RationalValueError during item assignment: Only Rational or int values are allowed
+Caught RationalValueError during list addition: Can only concatenate with RationalList, Rational or int
+Caught RationalValueError during += operation: Can only concatenate with RationalList, Rational or int 
