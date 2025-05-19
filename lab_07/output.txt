@@ -1,0 +1,9 @@
+In input01.txt the shape with the max measure is Circle
+Measure: 153.93804002589985
+----------------------------------------
+In input02.txt the shape with the max measure is Circle
+Measure: 314.1592653589793
+----------------------------------------
+In input03.txt the shape with the max measure is Circle
+Measure: 452.3893421169302
+----------------------------------------
