@@ -1,0 +1,54 @@
+===== SEQUENCE ELEMENT CALCULATION (sequence_element.py) =====
+$ printf "2\n3\n" | python sequence_element.py
+Enter value for x: Enter value for k: Element x_3 = 0.08888888888888889
+First 4 elements of the sequence:
+x_0 = 1.0
+x_1 = 2.0
+x_2 = 0.6666666666666666
+x_3 = 0.08888888888888889
+Element calculated with loop: 0.08888888888888889
+
+===== PRODUCT CALCULATION (product_calculation.py) =====
+$ printf "5\n" | python product_calculation.py
+Enter value for n: Terms of the product:
+Term 1: 2.0
+Term 2: 1.25
+Term 3: 1.1111111111111112
+Term 4: 1.0625
+Term 5: 1.04
+P_5 = 3.0694444444444446
+
+===== DETERMINANT CALCULATION (determinant_calculation.py) =====
+$ printf "4\n2\n3\n" | python determinant_calculation.py
+Enter value for n (order of determinant): Enter value for a: Enter value for b: Determinant of 
+order 4 with a=2.0 and b=3.0:
+Result: 211.0
+Sequence of determinants from order 1 to 4:
+Order 1: 5.0
+Order 2: 19.0
+Order 3: 65.0
+Order 4: 211.0
+
+===== SUM CALCULATION (sum_calculation.py) =====
+$ printf "6\n" | python sum_calculation.py
+Enter value for n: Terms of the sum S_6:
+Term 1: a_1/2 = 0.5
+Term 2: a_2/4 = 0.25
+Term 3: a_3/8 = 0.125
+Term 4: a_4/16 = 0.125
+Term 5: a_5/32 = 0.09375
+Term 6: a_6/64 = 0.0625
+S_6 = 1.15625
+
+===== TAYLOR SERIES CALCULATION (taylor_series.py) =====
+$ printf "0.5\n0.0001\n" | python taylor_series.py
+Enter value for x (|x| < 1): Enter accuracy (epsilon): First few terms of Taylor series:
+Term 1: 1.0
+Term 2: 0.08333333333333333
+Term 3: 0.0125
+Term 4: 0.002232142857142857
+Term 5: 0.00043402777777777775
+
+Result using Taylor series with accuracy 0.0001: 1.0984995039682537
+Result using math.log((1+x)/(1-x)): 1.0986122886681098
+Absolute difference: 0.0001127846998560944 
